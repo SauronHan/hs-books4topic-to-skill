@@ -8,6 +8,65 @@ An industrial-grade knowledge engineering engine that reads a corpus of domain b
 
 ---
 
+## 💡 Homage to Pioneers & Evolutionary Mission
+
+### 1. Homage to [Cangjie Skill (仓颉)](https://github.com/kangarooking/cangjie-skill)
+
+In the emerging field of AI skill extraction and knowledge engineering, [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) established an admirable milestone. Cangjie introduced the elegant **RIA-TV++** methodology and deterministic delivery pipelines, empowering developers and scholars to "finish reading a book or listening to a podcast—and leave with a callable AI Skill." It made groundbreaking contributions to single-source methodology extraction, capability card decoupling, and automated CLI toolchains.
+
+---
+
+### 2. Why Evolve from "Single-Book Extraction" to "Multi-Book Thematic Synthesis"?
+
+While Cangjie masterfully solves the problem of **converting a single work or medium into an executable Skill from 0 to 1**, real-world industrial domains (such as cinema virtual production, quantitative finance, clinical medicine, aerospace, and legal architecture) present four inherent bottlenecks when using the single-book extraction paradigm:
+
+```text
+┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+│              Limitations of the "Single-Book Skill" Paradigm in Complex Engineering              │
+├────────────────────────┬─────────────────────────────────────────────────────────────────────────┤
+│ 1. Knowledge           │ Real disciplines cannot be encapsulated in a single book. Cinema, for   │
+│    Fragmentation &     │ instance, spans screenwriting, directing, camera optics, wardrobe, cuts,│
+│    Process Gaps        │ and sound. Converting 25 books individually creates 25 disconnected     │
+│                        │ "knowledge silos" with severe pipeline handoff fractures.               │
+├────────────────────────┼─────────────────────────────────────────────────────────────────────────┤
+│ 2. Terminology Clash & │ Different authors define similar concepts using divergent frameworks    │
+│    Unarbitrated Dogma  │ (e.g., McKee's value reversal vs. Snyder's 15 beats vs. Egri's premise).│
+│                        │ Independent single-book skills cause conflicting logic and model fights.│
+├────────────────────────┼─────────────────────────────────────────────────────────────────────────┤
+│ 3. Severe Redundancy & │ Canonical books within the same domain heavily overlap in basic theory. │
+│    Context Bloat       │ Extracting per-book generates bloated duplicate cards, wasting context  │
+│                        │ windows and triggering mutual skill routing competition.                │
+├────────────────────────┼─────────────────────────────────────────────────────────────────────────┤
+│ 4. Lack of Pipeline    │ Single-book methodologies represent isolated personal wisdom, rarely    │
+│    State Machines      │ assembling directly into a full-pipeline engineering state machine.     │
+└────────────────────────┴─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 3. Core Mission of `hs-books4topic-to-skill`
+
+If **Cangjie Skill represents precise "monosyllabic gold-smithing"**, **`hs-books4topic-to-skill` acts as a "multi-source movable-type synthesizer"**. It is built to resolve the challenge of **"how to arbitrate, unify, and synthesize dozens of domain classics into a production-grade skill ecosystem"**:
+
+- **Task-Centric Thematic Clustering**: Instead of asking *"What can this book produce?"*, it asks *"What capabilities does this industrial workflow require?"*, clustering multiple books into orthogonal thematic skills.
+- **First-Principles Cross-Source Truth Arbitration**: Scrutinizes agreements, trade-offs, and boundary conditions across authors. Prunes dogmatic advice and redundant jargon to compile strict, verifiable execution contracts.
+- **K Topics = K Independent Production Skills (K = K)**: Rejects bloated single-router mega-prompts. Each topic yields a self-contained Skill with its own `SKILL.md`, method cards, source citations, and evaluation cases (`evals/`).
+- **100% Audit Coverage Gates**: Powered by `verify_skill_output.py`, ensuring full-corpus extraction is verifiable, free from hallucinations, and structurally compliant.
+
+#### Comparison at a Glance
+
+| Dimension | Cangjie Skill (仓颉) | hs-books4topic-to-skill |
+| :--- | :--- | :--- |
+| **Core Paradigm** | Single-Source Extraction | **Multi-Source Thematic Industrial Synthesis** |
+| **Input Scope** | Single book, single video, or podcast episode | **Full domain library (Corpus) containing dozens of books** |
+| **Knowledge Organization** | Capability Packs organized by source work | **K orthogonal themes mapped to industrial craft workflows** |
+| **Conflict Resolution** | Faithfully reflects the individual author's view | **Cross-source truth arbitration, pruning, and trade-off records** |
+| **Output Deliverable** | Single Skill or Router-based compact Pack | **K standalone, production-ready, publishable Skills (K=K)** |
+| **Audit Mechanism** | Content-addressed preprocessing, diffs, snapshots | **Full-corpus reading coverage matrix + verification test suites** |
+| **Best Suited For** | Fast distillation of single works / personal assets | **Forging the complete skill foundation for virtual studios & suites** |
+
+---
+
 ## 🌟 Core Philosophy & Guiding Principles
 
 - **1 Topic = 1 Standalone Skill**: Rejects giant monolithic prompts and superficial chapter summaries. If K topics are identified, K self-contained Skill packages are produced, each with its own `SKILL.md`, execution contracts, reference methods, and evaluation suites.
